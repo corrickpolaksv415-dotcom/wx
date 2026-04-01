@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tibetan-red: #8B2500;
+  --color-tibetan-gold: #DAA520;
+  --color-warm-bg: #FDFBF7;
+}
+
+body {
+  background-color: var(--color-warm-bg);
+  color: #333;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', serif;
+}
